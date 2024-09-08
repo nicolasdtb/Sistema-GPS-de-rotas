@@ -25,17 +25,17 @@ int main(void) {
 
   //Definindo o ponto incial, final e obstáculo.
     
-    int lInicio = 0;
-    int cInicio = 0;
-    int lPa = lInicio;
-    int cPa = cInicio;
-    int lFim = 1;
-    int cFim = 4;
-    int ObsC = 2;
-    int ObsL = 1;
-    mapa [lInicio][cInicio] = "I";
-    mapa [lFim][cFim] = "F";
-    mapa [ObsL][ObsC] = "O";  
+    int lInicio = 0;                  //Define a linha da posição inicial
+    int cInicio = 0;                  //Define a coluna da posição inicial
+    int lPa = lInicio;                //Define a linha da posição atual do 'robô'
+    int cPa = cInicio;                //Define a coluna da posição atual do 'robô'
+    int lFim = 1;                     //Define a linha posição final
+    int cFim = 4;                     //Define a coluna posição final
+    int ObsC = 2;                     //Define a coluna do obstáculo
+    int ObsL = 1;                     //Define a linha do obstáculo
+    mapa [lInicio][cInicio] = "I";    //Posiciona o caractere de início no mapa
+    mapa [lFim][cFim] = "F";          //Posiciona o caractere de final do mapa
+    mapa [ObsL][ObsC] = "O";          //Posiciona o caractere de obstáculo do mapa
 
   //Apresentação inicial do mapa
   
